@@ -1,6 +1,9 @@
 ## Specify phone tech before including full_phone
 $(call inherit-product, vendor/du/config/cdma.mk)
 
+# Inherit from the common Open Source product configuration
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/du/config/common.mk)
 
