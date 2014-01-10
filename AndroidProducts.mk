@@ -15,5 +15,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_xt907.mk \
-    $(LOCAL_DIR)/du_xt907.mk \
-    $(LOCAL_DIR)/du.mk
+    $(LOCAL_DIR)/du_xt907.mk 
