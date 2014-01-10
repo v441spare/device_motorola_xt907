@@ -1,0 +1,2 @@
+add_lunch_combo du_xt907-userdebug
+add_lunch_combo full_xt907-userdebug
